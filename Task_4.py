@@ -30,7 +30,7 @@ def change_contact(args, contacts):
     if args[0]in contacts.keys(): 
         add_contact(args, contacts)
     else:
-        raise(Exception)
+        raise(KeyError)
 
 @input_error    
 def show_phone(args, contacts):
