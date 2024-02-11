@@ -44,7 +44,7 @@ def show_all(args, contacts):
         s+=(f"{key:10} : {contacts[key]:10}\n")
     return s    
 
-@input_error
+
 def main():
     contacts = {}
     print("Welcome to the assistant bot!")
